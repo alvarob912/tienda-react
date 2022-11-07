@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "categoria": 1,
+        "nombre": "Cafe Brasil Catuai",
+        "precio": 60000,
+        "stock": 30,
+        "img": "Catuai.png"
+    },
+    {
+        "id": 2,
+        "categoria": 1,
+        "nombre": "Cafe Blend Brasil Colombia",
+        "precio": 60000,
+        "stock": 30,
+        "img": "House_Blend.png"
+    },
+    {
+        "id": 3,
+        "categoria": 1,
+        "nombre": "Cafe Colmbia",
+        "precio": 60000,
+        "stock": 30,
+        "img": "Colombia.png"
+    },
+    {
+        "id": 4,
+        "categoria": 1,
+        "nombre": "Cafe Brasil Bourbon",
+        "precio": 60000,
+        "stock": 30,
+        "img": "Bourbon.png"
+    },
+    {
+        "id": 5,
+        "categoria": 1,
+        "nombre": "Cafe Brasil Topazio",
+        "precio": 60000,
+        "stock": 30,
+        "img": "Topazio.png"
+    },
+    {
+        "id": 6,
+        "categoria": 1,
+        "nombre": "Café Brasil Oeiras Tostado - Orgánico",
+        "precio": 60000,
+        "stock": 30,
+        "img": "Oeiras.png"
+    },
+    {
+        "id": 7,
+        "categoria": 1,
+        "nombre": "Cafe Brasil Catuai - Amarillo Tostado",
+        "precio": 60000,
+        "stock": 30,
+        "img": "Catuai_Amarillo.png"
+    },
+    {
+        "id": 8,
+        "categoria": 1,
+        "nombre": "Cafe Costa Rica",
+        "precio": 60000,
+        "stock": 30,
+        "img": "Costa_Rica.png"
+    },
+    
+    {
+        "id": 9,
+        "categoria": 1,
+        "nombre": "Café Honduras",
+        "precio": 60000,
+        "stock": 30,
+        "img": "Honduras.png"
+    }
+]

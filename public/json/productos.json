@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "categoria": 1,
+        "categoria": "cafe",
         "nombre": "Cafe Brasil Catuai",
         "precio": 60000,
         "stock": 30,
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "categoria": 1,
+        "categoria": "cafe",
         "nombre": "Cafe Blend Brasil Colombia",
         "precio": 60000,
         "stock": 30,
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "categoria": 1,
+        "categoria": "cafe",
         "nombre": "Cafe Colmbia",
         "precio": 60000,
         "stock": 30,
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "categoria": 1,
+        "categoria": "cafe",
         "nombre": "Cafe Brasil Bourbon",
         "precio": 60000,
         "stock": 30,
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "categoria": 1,
+        "categoria": "cafe",
         "nombre": "Cafe Brasil Topazio",
         "precio": 60000,
         "stock": 30,
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "categoria": 1,
+        "categoria": "cafe",
         "nombre": "Café Brasil Oeiras Tostado - Orgánico",
         "precio": 60000,
         "stock": 30,
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "categoria": 1,
+        "categoria": "cafe",
         "nombre": "Cafe Brasil Catuai - Amarillo Tostado",
         "precio": 60000,
         "stock": 30,
@@ -57,7 +57,7 @@
     },
     {
         "id": 8,
-        "categoria": 1,
+        "categoria": "cafe",
         "nombre": "Cafe Costa Rica",
         "precio": 60000,
         "stock": 30,
@@ -66,10 +66,154 @@
     
     {
         "id": 9,
-        "categoria": 1,
+        "categoria": "cafe",
         "nombre": "Café Honduras",
         "precio": 60000,
         "stock": 30,
         "img": "Honduras.png"
+    },
+    {
+        "id": 10,
+        "categoria": "molino",
+        "nombre": "Molino Manual muelas de ceramica Inox",
+        "precio": 60000,
+        "stock": 30,
+        "img": "molino_inox.jpg"
+    },
+    {
+        "id": 11,
+        "categoria": "molino",
+        "nombre": "Molino eléctrico Lume",
+        "precio": 60000,
+        "stock": 30,
+        "img": "molino_lume.png"
+    },
+    {
+        "id": 12,
+        "categoria": "molino",
+        "nombre": "Molino Lida",
+        "precio": 60000,
+        "stock": 30,
+        "img": "molino_simil.jpg"
+    },
+    {
+        "id": 13,
+        "categoria": "molino",
+        "nombre": "Molino Hario Slim",
+        "precio": 60000,
+        "stock": 30,
+        "img": "molino_slim.jpg"
+    },
+    {
+        "id": 14,
+        "categoria": "molino",
+        "nombre": "Molino Quamar Nemo",
+        "precio": 60000,
+        "stock": 30,
+        "img": "medida_meli.png"
+    },
+    {
+        "id": 15,
+        "categoria": "molino",
+        "nombre": "Molino Saeco M50",
+        "precio": 60000,
+        "stock": 30,
+        "img": "molino_saeco.png"
+    },
+    {
+        "id": 16,
+        "categoria": "cafetera",
+        "nombre": "Cafetera Portatil Trinity Zero Coffee Press",
+        "precio": 60000,
+        "stock": 30,
+        "img": "trinity_zero.png"
+    },
+    {
+        "id": 17,
+        "categoria": "cafetera",
+        "nombre": "Cafetera Delter",
+        "precio": 60000,
+        "stock": 30,
+        "img": "cafetera_delter.jpg"
+    },
+    {
+        "id": 18,
+        "categoria": "cafetera",
+        "nombre": "Prensa Francesa Bodum Java",
+        "precio": 60000,
+        "stock": 30,
+        "img": "bodum_prensas.jpg"
+    },
+    {
+        "id": 19,
+        "categoria": "cafetera",
+        "nombre": "Cafetera Chemex 6 Cups",
+        "precio": 60000,
+        "stock": 30,
+        "img": "Cafetera_Chemex.png"
+    },
+    {
+        "id": 20,
+        "categoria": "cafetera",
+        "nombre": "Kit Cafetera V60 Hario",
+        "precio": 60000,
+        "stock": 30,
+        "img": "kit_hario.jpg"
+    },
+    {
+        "id": 21,
+        "categoria": "cafetera",
+        "nombre": "Prensa Francesa con tapa de Madera",
+        "precio": 60000,
+        "stock": 30,
+        "img": "francesa_madera.png"
+    },
+    {
+        "id": 22,
+        "categoria": "cafetera",
+        "nombre": "Cafetera Italiana Bialetti 6 Cup Negra",
+        "precio": 60000,
+        "stock": 30,
+        "img": "cafetera_italia.png"
+    },
+    {
+        "id": 23,
+        "categoria": "cafetera",
+        "nombre": "Cafetera Italiana Moka Mango Madera",
+        "precio": 60000,
+        "stock": 30,
+        "img": "italia_madera.png"
+    },
+    {
+        "id": 24,
+        "categoria": "cafetera",
+        "nombre": "Cafetera Espresso FLAIR NEO",
+        "precio": 60000,
+        "stock": 30,
+        "img": "cafetera_flair.png"
+    },
+    {
+        "id": 25,
+        "categoria": "cafetera",
+        "nombre": "Prensa Francesa Embolo Bodum Cafettiera Bodum",
+        "precio": 60000,
+        "stock": 30,
+        "img": "prensa_embolo.jpg"
+    },
+    {
+        "id": 26,
+        "categoria": "cafetera",
+        "nombre": "Cafetera Espresso FLAIR PRO 2",
+        "precio": 60000,
+        "stock": 30,
+        "img": "cafetera_pro.png"
+    },
+    {
+        "id": 27,
+        "categoria": "cafetera",
+        "nombre": "Combo Flair Neo + Espumador Subminimal",
+        "precio": 60000,
+        "stock": 30,
+        "img": "cafetera_black.png"
     }
 ]

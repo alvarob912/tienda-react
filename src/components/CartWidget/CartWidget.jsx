@@ -1,10 +1,12 @@
+import './cartWidget.css'
+import { Link } from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCartShopping} from '@fortawesome/free-solid-svg-icons';
-import './cartWidget.css'
+
 const CartWidget = () => {
     return (
         <>
-            <button className="cart-btn"><FontAwesomeIcon icon={faCartShopping} style={{color:'white'}}/></button>
+            <Link to="/cart"><button className="cart-btn"><FontAwesomeIcon icon={faCartShopping} style={{color:'white'}}/></button></Link>
         </>
     );
 }

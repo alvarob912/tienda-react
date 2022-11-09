@@ -6,10 +6,9 @@ import CartWidget from '../CartWidget/CartWidget';
 
 const Navbar = () => {
     return (
-        
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
-            <Link className="navbar-brand" to="/"><img src="../img/logo.png"/></Link>
+            <Link className="navbar-brand" to="/"><img src="../img/logo.png" alt='...'/></Link>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <Secciones/>

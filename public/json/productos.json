@@ -13,7 +13,7 @@
         "nombre": "Cafe Blend Brasil Colombia",
         "precio": 60000,
         "stock": 30,
-        "img": "House_Blend.png"
+        "img": "House_Blend.png" 
     },
     {
         "id": 3,

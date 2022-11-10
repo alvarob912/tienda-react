@@ -1,4 +1,8 @@
 import {useState} from 'react';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faCartShopping} from '@fortawesome/free-solid-svg-icons';
+import {faPlus} from '@fortawesome/free-solid-svg-icons';
+import {faMinus} from '@fortawesome/free-solid-svg-icons';
 
 const ItemCount = ({stock, onAdd}) => {
     const [contador, setContador] = useState(1) //valor inicial
@@ -13,10 +17,10 @@ const ItemCount = ({stock, onAdd}) => {
     
     return (
         <>
-            <button onClick={decrementar} className='btn btn-outline-primary btn-sm b-button'>-</button>
+            <button onClick={decrementar} className='btn btn-secondary'><FontAwesomeIcon icon={faMinus}/></button>
                     {contador}
-            <button onClick={incrementar} className='btn btn-outline-primary btn-sm b-button'>+</button>
-            <button className="btn btn-dark" onClick={agregarAlCarrito}><i class="fas fa-cart-plus"></i></button>
+            <button onClick={incrementar} className='btn btn-secondary'><FontAwesomeIcon icon={faPlus}/></button>
+            <button className="btn btn-secondary" onClick={agregarAlCarrito}><FontAwesomeIcon icon={faCartShopping} style={{color:'black'}}/></button>
         </>
     );
 }

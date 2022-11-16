@@ -4,18 +4,23 @@ import Navbar from './Navbar/Navbar';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Cart from './Cart/Cart';
 import ItemListContainer from "./ItemListContainer/ItemListContainer";
+import { CartContextProvider } from '../context/CartContext';
+import Checkout from './Checkout/Checkout';
 
 const App = () => {
   return (
     <>
     <BrowserRouter>
+    <CartContextProvider>
       <Navbar/>
       <Routes>
         <Route path='/' element={<ItemListContainer/>}/>
         <Route path='/product/:id' element={<ItemDetailContainer/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/category/:category' element={<ItemListContainer/>}/>
+        <Route path='/checkout' element={<Checkout/>}/>
       </Routes>
+    </CartContextProvider>
     </BrowserRouter>
     </>
   );

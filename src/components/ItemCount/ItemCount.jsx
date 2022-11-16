@@ -17,10 +17,10 @@ const ItemCount = ({stock, onAdd}) => {
     
     return (
         <>
-            <button onClick={decrementar} className='btn btn-secondary'><FontAwesomeIcon icon={faMinus}/></button>
+            <button onClick={decrementar} className='btn btn-light btn-button'><FontAwesomeIcon icon={faMinus}/></button>
                     {contador}
-            <button onClick={incrementar} className='btn btn-secondary'><FontAwesomeIcon icon={faPlus}/></button>
-            <button className="btn btn-secondary" onClick={agregarAlCarrito}><FontAwesomeIcon icon={faCartShopping} style={{color:'black'}}/></button>
+            <button onClick={incrementar} className='btn btn-light btn-button'><FontAwesomeIcon icon={faPlus}/></button>
+            <button className="btn btn-light btn-button" onClick={agregarAlCarrito}><FontAwesomeIcon icon={faCartShopping} style={{color:'black'}}/></button>
         </>
     );
 }

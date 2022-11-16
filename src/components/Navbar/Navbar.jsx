@@ -1,10 +1,11 @@
+import React from 'react';
 import './navbar.css'
 import { Link } from 'react-router-dom';
 import FormBusqueda from '../formBusqueda/formBusqueda';
 import Secciones from './Secciones/Secciones';
 import CartWidget from '../CartWidget/CartWidget';
 
-const Navbar = () => {
+const Navbar = React.memo(() => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
@@ -19,6 +20,6 @@ const Navbar = () => {
         </div>
         </nav>
     );
-}
+})
 
 export default Navbar;

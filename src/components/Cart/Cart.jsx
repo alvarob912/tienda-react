@@ -17,7 +17,7 @@ const Cart = () => {
             <div>
                 {cart.map((prod, indice) => 
                     <div className="card" style={{width: '18rem'}}>
-                        <img src={`../img/${prod.img}`} className="img-fluid rounded-start" />
+                        <img src={prod.img} className="img-fluid rounded-start" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">{prod.nombre}</h5>
                             <p className="card-text">Cantidad: {prod.cant}</p>

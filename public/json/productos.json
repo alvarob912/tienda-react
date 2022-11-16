@@ -5,7 +5,7 @@
         "nombre": "Cafe Brasil Catuai",
         "precio": 60000,
         "stock": 30,
-        "img": "Catuai.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/Catuai.png?alt=media&token=e5004033-3d5f-4a84-aa71-400edcc2b040"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "nombre": "Cafe Blend Brasil Colombia",
         "precio": 60000,
         "stock": 30,
-        "img": "House_Blend.png" 
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/House_Blend.png?alt=media&token=edf70786-bb30-42a9-9563-95137b061df9g" 
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "nombre": "Cafe Colmbia",
         "precio": 60000,
         "stock": 30,
-        "img": "Colombia.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/Colombia.png?alt=media&token=75a66c36-57c7-4e5e-bb60-0286ca62e0ab"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "nombre": "Cafe Brasil Bourbon",
         "precio": 60000,
         "stock": 30,
-        "img": "Bourbon.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/Bourbon.png?alt=media&token=b456e6ea-f5f8-4ff9-882a-39c30f6a8054"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "nombre": "Cafe Brasil Topazio",
         "precio": 60000,
         "stock": 30,
-        "img": "Topazio.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/Topazio.png?alt=media&token=a61ca4a1-5a88-4079-bb8a-4477e3bb8333"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "nombre": "Café Brasil Oeiras Tostado - Orgánico",
         "precio": 60000,
         "stock": 30,
-        "img": "Oeiras.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/Oeiras.png?alt=media&token=0ae88ba4-d5bd-4041-80ba-2a8d14636e4a"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "nombre": "Cafe Brasil Catuai - Amarillo Tostado",
         "precio": 60000,
         "stock": 30,
-        "img": "Catuai_Amarillo.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/Catuai_Amarillo.png?alt=media&token=a7bbb98a-348e-4500-9360-1f199e92916a"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "nombre": "Cafe Costa Rica",
         "precio": 60000,
         "stock": 30,
-        "img": "Costa_Rica.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/Costa_Rica.png?alt=media&token=63b886a1-5b4d-4cef-b946-ac197564e6e6"
     },
     
     {
@@ -70,7 +70,7 @@
         "nombre": "Café Honduras",
         "precio": 60000,
         "stock": 30,
-        "img": "Honduras.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/Honduras.png?alt=media&token=54cbce74-30b3-4961-b1a1-6a6ac0ea0a74"
     },
     {
         "id": 10,
@@ -78,7 +78,7 @@
         "nombre": "Molino Manual muelas de ceramica Inox",
         "precio": 60000,
         "stock": 30,
-        "img": "molino_inox.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/molino_inox.jpg?alt=media&token=da7c0e85-2e4e-44c9-82bd-3eb848e50a85"
     },
     {
         "id": 11,
@@ -86,7 +86,7 @@
         "nombre": "Molino eléctrico Lume",
         "precio": 60000,
         "stock": 30,
-        "img": "molino_lume.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/molino_lume.png?alt=media&token=0da2e1bf-8099-471e-910a-3cb96428ebd2"
     },
     {
         "id": 12,
@@ -94,7 +94,7 @@
         "nombre": "Molino Lida",
         "precio": 60000,
         "stock": 30,
-        "img": "molino_simil.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/molino_simil.jpg?alt=media&token=42f4d51c-fc70-4123-b7f7-e9ecb6689d94"
     },
     {
         "id": 13,
@@ -102,7 +102,7 @@
         "nombre": "Molino Hario Slim",
         "precio": 60000,
         "stock": 30,
-        "img": "molino_slim.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/molino_slim.jpg?alt=media&token=cf9a750a-2931-4bdf-b1c2-252603724516"
     },
     {
         "id": 14,
@@ -110,7 +110,7 @@
         "nombre": "Molino Quamar Nemo",
         "precio": 60000,
         "stock": 30,
-        "img": "medida_meli.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/medida_meli.png?alt=media&token=bdb6b4ea-6cdc-4739-a0ac-0eee76da8177"
     },
     {
         "id": 15,
@@ -118,7 +118,7 @@
         "nombre": "Molino Saeco M50",
         "precio": 60000,
         "stock": 30,
-        "img": "molino_saeco.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/molino_saeco.png?alt=media&token=5723c162-af05-45fa-9a12-efad8c0d902b"
     },
     {
         "id": 16,
@@ -126,7 +126,7 @@
         "nombre": "Cafetera Portatil Trinity Zero Coffee Press",
         "precio": 60000,
         "stock": 30,
-        "img": "trinity_zero.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/trinity_zero.png?alt=media&token=8fff4fa1-a7d9-4144-9c54-ae38bf06b26a"
     },
     {
         "id": 17,
@@ -134,7 +134,7 @@
         "nombre": "Cafetera Delter",
         "precio": 60000,
         "stock": 30,
-        "img": "cafetera_delter.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/cafetera_delter.jpg?alt=media&token=c18cf79b-7e89-423b-9b91-d1faae37ade9"
     },
     {
         "id": 18,
@@ -142,7 +142,7 @@
         "nombre": "Prensa Francesa Bodum Java",
         "precio": 60000,
         "stock": 30,
-        "img": "bodum_prensas.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/bodum_prensas.jpg?alt=media&token=7e050e8e-84fd-4095-a69e-aa63773f7de1"
     },
     {
         "id": 19,
@@ -150,7 +150,7 @@
         "nombre": "Cafetera Chemex 6 Cups",
         "precio": 60000,
         "stock": 30,
-        "img": "Cafetera_Chemex.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/Cafetera_Chemex.png?alt=media&token=46d960db-5e4d-4b15-a4ea-acfe98ebf1e1"
     },
     {
         "id": 20,
@@ -158,7 +158,7 @@
         "nombre": "Kit Cafetera V60 Hario",
         "precio": 60000,
         "stock": 30,
-        "img": "kit_hario.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/kit_hario.jpg?alt=media&token=dd706e38-5703-4a23-98a6-7e5524a5ba46"
     },
     {
         "id": 21,
@@ -166,7 +166,7 @@
         "nombre": "Prensa Francesa con tapa de Madera",
         "precio": 60000,
         "stock": 30,
-        "img": "francesa_madera.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/francesa_madera.png?alt=media&token=71ec27ab-fbd7-4130-baf4-c45023abec36"
     },
     {
         "id": 22,
@@ -174,7 +174,7 @@
         "nombre": "Cafetera Italiana Bialetti 6 Cup Negra",
         "precio": 60000,
         "stock": 30,
-        "img": "cafetera_italia.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/cafetera_italia.png?alt=media&token=c8d45a5d-520c-4e8a-bb79-0ba028f28f93"
     },
     {
         "id": 23,
@@ -182,7 +182,7 @@
         "nombre": "Cafetera Italiana Moka Mango Madera",
         "precio": 60000,
         "stock": 30,
-        "img": "italia_madera.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/italia_madera.png?alt=media&token=eacbaf41-0075-4834-96a9-067acec0b00a"
     },
     {
         "id": 24,
@@ -190,7 +190,7 @@
         "nombre": "Cafetera Espresso FLAIR NEO",
         "precio": 60000,
         "stock": 30,
-        "img": "cafetera_flair.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/cafetera_flair.png?alt=media&token=338e01c1-c6d6-4412-b305-2cf574af122d"
     },
     {
         "id": 25,
@@ -198,7 +198,7 @@
         "nombre": "Prensa Francesa Embolo Bodum Cafettiera Bodum",
         "precio": 60000,
         "stock": 30,
-        "img": "prensa_embolo.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/prensa_embolo.jpg?alt=media&token=a9709d0b-0dc7-4022-832c-fcdcb9c61050"
     },
     {
         "id": 26,
@@ -206,7 +206,7 @@
         "nombre": "Cafetera Espresso FLAIR PRO 2",
         "precio": 60000,
         "stock": 30,
-        "img": "cafetera_pro.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/cafetera_pro.png?alt=media&token=0d5a0b7e-a5a6-4484-88cc-36f1a17717aa"
     },
     {
         "id": 27,
@@ -214,6 +214,6 @@
         "nombre": "Combo Flair Neo + Espumador Subminimal",
         "precio": 60000,
         "stock": 30,
-        "img": "cafetera_black.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-2022-f800a.appspot.com/o/cafetera_black.png?alt=media&token=ca1f763d-a483-4736-a5cb-979f1d23f022"
     }
 ]

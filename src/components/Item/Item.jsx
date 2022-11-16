@@ -6,7 +6,7 @@ const Item = ({prod}) => {
         <div className="card mb-3 cardProducto border-primary" style={{maxWidth: '540px'}}>
             <div className="row g-0">
                 <div className="col-md-4">
-                    <img src={`../img/${prod.img}`} className="card-img-top" alt="..." />
+                    <img src={prod.img} className="card-img-top" alt="..." />
                 </div>
                 <div className="col-md-8">
                     <div className="card-body text-center">

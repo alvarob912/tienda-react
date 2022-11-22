@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import {getFirestore, collection, addDoc, getDocs, getDoc} from "firebase/firestore"
+import {getFirestore, collection, addDoc, getDocs, getDoc, doc, updateDoc, deleteDoc} from "firebase/firestore"
 //"AIzaSyAV4ujUPS08F4nffztbbkZylpxONgceTDM"
 
 const firebaseConfig = {
@@ -15,6 +15,8 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 const db = getFirestore()
+
+
 
 const cargarBDD = async () => {
     const promise = await fetch('./json/productos.json')
@@ -36,4 +38,50 @@ const getProductos = async () => {
     return items
 
 }
-export {cargarBDD, getProductos}
+
+const getProducto = async (id) =>{
+    const prod = await getDoc(doc(db,"productos",id))
+    const item = {...prod.data(), id: prod.id}
+    return item
+}
+
+const createProducto = async (objProducto) => {
+    const estado = await addDoc(collection(db, "productos"), {
+        nombre: objProducto.nombre,
+        categoria: objProducto.categoria,
+        precio: objProducto.precio,
+        stock: objProducto.precio,
+        img: objProducto.img
+    })
+    return estado
+}
+
+const updateProducto = async (id, info) => {
+    const estado = await updateDoc(doc(db, "productos", id), info)
+    return estado
+}
+
+const deleteProducto = async(id) => {
+    const estado = await deleteDoc(doc(db, "productos", id))
+    return estado
+}
+
+const createOrdenCompra = async (cliente, preTotal, fecha) => {
+    const ordenCompra = await addDoc(collection(db, "ordenCompra"), {
+        nombre: cliente.nombre,
+        apellido: cliente.apellido,
+        email: cliente.email,
+        dni: cliente.dni,
+        direccion: cliente.direccion,
+        fecha: fecha,
+        precioTotal: preTotal
+    })
+    return ordenCompra
+}
+
+const getOrdenCompra = async (id) =>{
+    const item = await getDoc(doc(db, "ordenCompra", id))
+    const ordenCompra = {...item.data(), id: item.id}
+    return ordenCompra
+}
+export {cargarBDD, getProductos, getProducto, createProducto, updateProducto, deleteProducto, createOrdenCompra, getOrdenCompra}

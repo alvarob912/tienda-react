@@ -14,11 +14,19 @@ const ItemDetailContainer = () => {
     }, []);
 
     return (
+        <>
+        { producto !== "Producto no encontrado" ?
         <div>
             <div className='card mb-3 container itemDetail border-primary'>
                 <ItemDetail producto={producto}/>
             </div>
         </div>
+        :
+        <>
+            <h1>Producto no encontrado</h1>
+        </>
+    }
+    </>
     );
 }
 

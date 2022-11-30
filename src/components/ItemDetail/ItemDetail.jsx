@@ -33,3 +33,4 @@ const ItemDetail = ({producto}) => {
 }
 
 export default ItemDetail;
+

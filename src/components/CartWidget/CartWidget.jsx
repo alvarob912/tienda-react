@@ -9,8 +9,8 @@ const CartWidget = () => {
     const {getItemQuantity} = useContext(CartContext)
     return (
         <>
+            { getItemQuantity() >= 1 && <span className="p-2 badge rounded-pill bg-danger">{getItemQuantity()}</span>}
             <Link to="/cart"><button className="cart-btn"><FontAwesomeIcon icon={faCartShopping} style={{color:'white'}}/></button></Link>
-            <p>{getItemQuantity()}</p>
         </>
     );
 }

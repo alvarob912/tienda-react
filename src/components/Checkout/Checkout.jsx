@@ -1,22 +1,52 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import {useNavigate} from "react-router-dom"
+import {createOrdenCompra, getProducto, updateProducto} from '../../assets/firebase'
+import {CartContext} from "../../context/CartContext"
+import { toast } from 'react-toastify';
+
 
 const Checkout = () => {
 
-    const datosFormularios = React.useRef()
-    const consultarFromulario = (e) => {
+    const datosFormulario = React.useRef()
+    let navigate = useNavigate()
+    const {cart,emptyCart, totalPrice} = useContext(CartContext);
+
+    const consultarFormulario = (e) => {
         e.preventDefault()
-        const datForm = new FormData(datosFormularios.current)
+        const datForm = new FormData(datosFormulario.current)
         const valores = Object.fromEntries(datForm)
-        console.log(valores)
-        e.target.reset()
+        const aux = [...cart]
+        aux.forEach(producto => {
+            getProducto(producto.id)
+            .then(prod => {
+                prod.stock -= producto.cant
+                updateProducto(producto.id, prod)
+            })
+        })
+        
+        createOrdenCompra(valores, totalPrice(), new Date().toISOString().slice(0, 10)).then(orden => {
+            toast.success(`Su orden ${orden.id} fue creada con éxito`)
+            emptyCart()
+            e.target.reset()
+            navigate("/")
+        
+        }).catch(error => {
+            toast.error(`Su orden no fue creada con éxito`)
+            console.error(error)
+        })
+        
     }
 
     return (
         <div className='container'>
-            <form onSubmit={consultarFromulario} ref={datosFormularios}>
+            <form onSubmit={consultarFormulario} ref={datosFormulario}>
                 <div className="mb-3">
-                    <label htmlFor="nombre" className="form-label">Nombre y Apellido</label>
+                    <label htmlFor="nombre" className="form-label">Nombre</label>
                     <input type="text" className="form-control" name="nombre" />
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="apellido" className="form-label">Apellido</label>
+                    <input type="text" className="form-control" name="apellido" />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email</label>

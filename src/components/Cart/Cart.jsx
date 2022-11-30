@@ -1,8 +1,10 @@
-import { useContext } from "react";
+import { useContext} from "react";
 import { CartContext } from "../../context/CartContext";
 import { Link } from "react-router-dom";
 
+
 const Cart = () => {
+
 
     const{cart, emptyCart, removeItem, totalPrice} = useContext(CartContext)
 
@@ -20,7 +22,7 @@ const Cart = () => {
                     <div className="col-md-4">
                     <img src={prod.img} className="img-fluid rounded-start" alt="..." />
                 </div>
-                    <div className="col-md-8">
+                    <div className="col-md-8">  
                         <div className="card-body">
                             <h5 className="card-title">{prod.nombre}</h5>
                             <p className="card-text">Cantidad: {prod.cant}</p>

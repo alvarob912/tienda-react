@@ -16,8 +16,6 @@ const app = initializeApp(firebaseConfig);
 
 const db = getFirestore()
 
-
-
 const cargarBDD = async () => {
     const promise = await fetch('./json/productos.json')
     const productos = await promise.json()
@@ -89,4 +87,6 @@ const getOrdenCompra = async (id) =>{
     const ordenCompra = {...item.data(), id: item.id}
     return ordenCompra
 }
-export {cargarBDD, getProductos, getProducto, createProducto, updateProducto, deleteProducto, createOrdenCompra, getOrdenCompra}
+
+
+export {cargarBDD, getProductos, getProducto, createProducto, updateProducto, deleteProducto, createOrdenCompra, getOrdenCompra, app}

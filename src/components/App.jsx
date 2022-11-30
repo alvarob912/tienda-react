@@ -26,7 +26,7 @@ const App = () => {
       <ToastContainer/>
     </CartContextProvider>
     </BrowserRouter>
-    </>
+    </> 
   );
 }
 

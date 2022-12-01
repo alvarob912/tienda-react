@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useState} from 'react';
 import {useNavigate} from "react-router-dom"
 import {createOrdenCompra, getProducto, updateProducto} from '../../assets/firebase'
 import {CartContext} from "../../context/CartContext"
@@ -11,8 +11,15 @@ const Checkout = () => {
     let navigate = useNavigate()
     const {cart,emptyCart, totalPrice} = useContext(CartContext);
 
+    const [email, setEmail] = useState("");
+    const [email2, setEmail2] = useState("");
+
     const consultarFormulario = (e) => {
         e.preventDefault()
+        if(email!==email2){
+            toast.error("Email incorrecto");
+            return;
+        }
         const datForm = new FormData(datosFormulario.current)
         const valores = Object.fromEntries(datForm)
         const aux = [...cart]
@@ -50,7 +57,11 @@ const Checkout = () => {
                 </div>
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email</label>
-                    <input type="email" className="form-control" name="email" />
+                    <input type="email" className="form-control" name="email" value={email} onChange={(event) => setEmail(event.target.value)}/>
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="confirmar-email" className="form-label">Confirmar Email</label>
+                    <input type="email" className="form-control" name="confirmar-email" value={email2} onChange={(event) => setEmail2(event.target.value)}/>
                 </div>
                 <div className="mb-3">
                     <label htmlFor="dni" className="form-label">DNI</label>
